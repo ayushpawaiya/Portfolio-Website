@@ -1,0 +1,231 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-family: 'Courier Prime', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2aa2e7;
+    margin: 10px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.left {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    justify-content: right;
+    padding: 10px;
+}
+
+.right ul a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.right ul a:hover {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.Section1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0px;
+    align-items: center;
+}
+
+.Section1>div {
+    width: 40%;
+}
+
+
+.rightSection1 {
+    font-size: 3rem;
+}
+
+.leftSection1 {
+    width: 10%;
+}
+
+.leftSection1 img {
+    width: 90%;
+}
+
+.blue {
+    color: #2aa2e7;
+}
+
+hr {
+    margin: 3rem;
+}
+
+#element {
+    color: #2aa2e7;
+}
+
+.Section2 {
+    padding: 80px;
+}
+
+.Section2 h1 {
+    font-size: 5rem;
+    color: #2aa2e7;
+    justify-content: space-around;
+    margin: 0 30%;
+}
+
+.Section2 p {
+    margin: 0 50px;
+    font-size: 20px;
+}
+
+.grey {
+    color: grey;
+}
+
+.Section3 {
+    margin-left: 50px;
+    margin-right: 50px;
+    height: auto;
+}
+
+.Section3 h1 {
+    margin-top: 0px;
+    color: #2aa2e7;
+    text-decoration: underline;
+}
+
+.section3-1{
+    display:flex;
+
+}
+
+.section3-1 >div{
+    width: 50%;
+}
+
+.rightSection3 div{
+    width: 40%;
+    border: 2px solid white;
+}
+
+.rightSection3 img {
+    width: 450px;
+    height: 300px;
+    padding: 50px 0 0 50px;
+    align-content: center;
+}
+
+.container {
+    width: 75%;
+    margin: 0px;
+    padding: 5px 0 0 50px;
+}
+
+.skill {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.progress-bar {
+    background-color: grey;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.progress {
+    background-color: #2aa2e7;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.progress-bar div span{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: white;
+    float: right;
+    margin-top: -5px;
+    margin-right: -20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+footer{
+    background-color: #2aa2e7;
+    color:#ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    margin: 0px 10px;
+    height: auto;
+}
+
+.footer p{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.SocialIcons .fab{
+    color: black;
+    padding: 10px;
+}
+
+.SocialIcons{
+    display: flex;
+    justify-content: center;
+    size: 30px;
+    text-decoration: none;
+}
+
+.SocialIcons a{
+    text-decoration: none;
+}
+
+.SocialIcons i{
+    margin: 0 30px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    
+}
+ #bottom{
+    display: flex;
+    background-color: #000000;
+    justify-content: center;
+    margin: 10px 0 0 0;
+}
+
+.footerbottem span{
+    opacity: 70%;
+}
+
+.footerbottem p{
+    margin: 0.4rem;
+}
